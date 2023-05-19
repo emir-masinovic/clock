@@ -12,7 +12,7 @@ const second = document.querySelector('.second')
 
 setInterval(() => {
     const date = new Date()
-    const hourDate = date.getHours() % 12
+    const hourDate = date.getHours() * 30
     const minuteDate = date.getMinutes() * deg
     const secondDate = date.getSeconds() * deg
 
